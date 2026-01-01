@@ -113,28 +113,6 @@ const FraudAlertsSection = () => {
             );
           })}
         </div>
-
-        {/* Emergency Contact */}
-        <Card variant="outline" className="mt-8 border-2 border-primary">
-          <CardContent className="p-8">
-            <div className="flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
-              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary">
-                <Phone className="h-8 w-8 text-primary-foreground" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold mb-2">¿Crees que fuiste víctima de fraude?</h3>
-                <p className="text-muted-foreground text-base">
-                  Llama inmediatamente a tu banco para bloquear tu cuenta y reportar el incidente. 
-                  También puedes llamar a la CONDUSEF al 55 5340 0999.
-                </p>
-              </div>
-              <div className="text-center">
-                <p className="text-sm text-muted-foreground mb-1">CONDUSEF</p>
-                <p className="text-2xl font-bold text-primary">55 5340 0999</p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
       </div>
     </section>
   );

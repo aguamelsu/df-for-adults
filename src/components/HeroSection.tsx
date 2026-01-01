@@ -28,7 +28,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-senior-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              Cursos gratuitos diseñados especialmente para adultos mayores. 
+              Módulos gratuitos diseñados especialmente para adultos mayores. 
               Aprende sobre banca digital, cómo evitar fraudes y toma el control 
               de tus finanzas con confianza.
             </p>
@@ -80,10 +80,6 @@ const HeroSection = () => {
                   <div className="flex items-center gap-3 rounded-xl bg-primary/10 p-4">
                     <CheckCircle className="h-6 w-6 text-primary" />
                     <span className="text-senior-base font-medium">Sin conocimientos previos</span>
-                  </div>
-                  <div className="flex items-center gap-3 rounded-xl bg-accent/10 p-4">
-                    <CheckCircle className="h-6 w-6 text-accent" />
-                    <span className="text-senior-base font-medium">A tu propio ritmo</span>
                   </div>
                 </div>
               </div>

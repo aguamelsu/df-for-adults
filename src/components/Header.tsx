@@ -37,7 +37,7 @@ const Header = () => {
             <Shield className="h-7 w-7 text-primary-foreground" />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-bold text-foreground">FinanzasSeguras</span>
+            <span className="text-xl font-bold text-foreground">Finanzas Seguras</span>
             <span className="text-sm text-muted-foreground">Educación Financiera Digital</span>
           </div>
         </div>
