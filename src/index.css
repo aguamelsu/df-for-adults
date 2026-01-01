@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
+
+/* Design System for Senior-Friendly Financial Education Platform */
+
+@layer base {
+  :root {
+    /* Primary - Trustworthy Blue */
+    --primary: 216 19% 26%;
+    --primary-foreground: 210 19% 98%;
+
+    /* Secondary - Calming Teal */
+    --secondary: 215 19% 34%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* Background - Warm off-white */
+    --background: 209 40% 96%;
+    --foreground: 222 47% 11%;
+
+    /* Card - Clean white with warmth */
+    --card: 210 40% 98%;
+    --card-foreground: 222 47% 11%;
+
+    /* Accent - Friendly green for positive actions */
+    --accent: 210 40% 98%;
+    --accent-foreground: 215 16% 46%;
+
+    /* Warning - Soft orange for alerts */
+    --warning: 35 95% 55%;
+    --warning-foreground: 35 95% 15%;
+
+    /* Danger - Accessible red for fraud alerts */
+    --danger: 0 75% 50%;
+    --danger-foreground: 0 0% 100%;
+
+    /* Success - Encouraging green */
+    --success: 145 60% 40%;
+    --success-foreground: 0 0% 100%;
+
+    /* Muted - Soft gray for secondary text */
+    --muted: 215 20% 65%;
+    --muted-foreground: 222 47% 11%;
+
+    /* Popover */
+    --popover: 214 31% 91%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Border - Subtle but visible */
+    --border: 212 26% 83%;
+    --input: 212 26% 83%;
+    --ring: 216 19% 26%;
+
+    /* Destructive */
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 85% 97%;
+
+    --radius: 0rem;
+
+    /* Custom shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(210 30% 20% / 0.1);
+    --shadow-card: 0 8px 30px -8px hsl(210 30% 20% / 0.12);
+    --shadow-hover: 0 12px 40px -8px hsl(210 30% 20% / 0.18);
+
+    /* Sidebar */
+    --sidebar-background: 210 35% 96%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 216 19% 26%;
+    --sidebar-primary-foreground: 210 19% 98%;
+    --sidebar-accent: 215 19% 34%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 212 26% 83%;
+    --sidebar-ring: 216 19% 26%;
+    --chart-1: 217 10% 64%;
+    --chart-2: 215 20% 65%;
+    --chart-3: 215 16% 46%;
+    --chart-4: 219 8% 46%;
+    --chart-5: 215 19% 34%;
+    --sidebar: 210 40% 98%;
+    --font-sans: 'DM Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    --font-serif: 'Crimson Pro', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --font-mono: 'SF Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
+  }
+
+  .dark {
+    --primary: 212 26% 83%;
+    --primary-foreground: 228 84% 4%;
+
+    --secondary: 215 19% 34%;
+    --secondary-foreground: 210 40% 98%;
+
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 32% 17%;
+    --card-foreground: 210 40% 98%;
+
+    --accent: 228 84% 4%;
+    --accent-foreground: 215 20% 65%;
+
+    --warning: 35 90% 50%;
+    --warning-foreground: 35 95% 10%;
+
+    --danger: 0 70% 55%;
+    --danger-foreground: 0 0% 100%;
+
+    --success: 145 55% 50%;
+    --success-foreground: 0 0% 100%;
+
+    --muted: 215 16% 46%;
+    --muted-foreground: 210 40% 98%;
+
+    --popover: 215 24% 26%;
+    --popover-foreground: 210 40% 98%;
+
+    --border: 215 19% 34%;
+    --input: 215 19% 34%;
+    --ring: 212 26% 83%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 85% 97%;
+
+    --sidebar-background: 220 18% 12%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 212 26% 83%;
+    --sidebar-primary-foreground: 228 84% 4%;
+    --sidebar-accent: 215 20% 65%;
+    --sidebar-accent-foreground: 228 84% 4%;
+    --sidebar-border: 215 19% 34%;
+    --sidebar-ring: 212 26% 83%;
+    --chart-1: 215 12% 83%;
+    --chart-2: 212 26% 83%;
+    --chart-3: 215 20% 65%;
+    --chart-4: 217 10% 64%;
+    --chart-5: 215 16% 46%;
+    --sidebar: 217 32% 17%;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  /* Senior-friendly base font size */
+  html {
+    font-size: 18px;
+  }
+
+  /* Ensure good focus visibility for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-4 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer utilities {
+  /* Senior-friendly text sizes */
+  .text-senior-sm {
+    @apply text-base leading-relaxed;
+  }
+
+  .text-senior-base {
+    @apply text-lg leading-relaxed;
+  }
+
+  .text-senior-lg {
+    @apply text-xl leading-relaxed;
+  }
+
+  .text-senior-xl {
+    @apply text-2xl leading-relaxed;
+  }
+
+  .text-senior-2xl {
+    @apply text-3xl leading-relaxed font-bold;
+  }
+
+  .text-senior-3xl {
+    @apply text-4xl leading-tight font-bold;
+  }
+
+  /* Card hover animation */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+  }
+
+  /* Gradient backgrounds */
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(210 65% 55%) 100%);
+  }
+
+  .gradient-accent {
+    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(145 60% 50%) 100%);
+  }
+
+  .gradient-warning {
+    background: linear-gradient(135deg, hsl(var(--warning)) 0%, hsl(25 95% 55%) 100%);
+  }
+
+  .gradient-danger {
+    background: linear-gradient(135deg, hsl(var(--danger)) 0%, hsl(350 75% 50%) 100%);
+  }
+
+  /* Subtle background pattern */
+  .pattern-dots {
+    background-image: radial-gradient(hsl(var(--border)) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
