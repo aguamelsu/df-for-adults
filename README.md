@@ -132,8 +132,3 @@ Through education and technology, this project:
 - Integration with in-person community workshops  
 - Multilingual support  
 - Expanded fraud scenario simulations  
-
----
-
-## 📄 License
-This project is intended for **educational and social impact purposes**.
