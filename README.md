@@ -95,19 +95,11 @@ No sensitive personal, banking, or medical data is collected or stored.
 
 ---
 
-## 🛡️ Ethics & Privacy
-- No real names or personal identifiers are required  
-- No banking credentials or sensitive information is collected  
-- Data is anonymized and used solely for educational impact analysis  
-- Designed following principles of **data minimization and ethical technology use**
-
----
-
 ## 🛠️ Technology Stack
 - **Frontend:** React / TypeScript (.tsx)  
 - **Logic:** JavaScript / JSON  
 - **Styling:** CSS  
-- **Deployment:** Web-based hosting (e.g., Vercel)  
+- **Deployment:** Web-based hosting using Vercel
 
 The platform prioritizes **clarity, accessibility, and usability** over complex visual design.
 
